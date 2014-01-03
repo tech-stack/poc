@@ -1,0 +1,9 @@
+---
+layout: page
+title: Table of Contents
+---
+<ul>
+{% for item in page.table_of_contents %}
+  <li><a href="{{ site.baseurl }}{{ item.table_of_contents.url }}">{{ item.title }}</a></li>
+{% endfor %}
+</ul>

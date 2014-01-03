@@ -2,3 +2,6 @@ name: Your New Jekyll Site
 markdown: redcarpet
 pygments: true
 baseurl: /poc
+
+table_of_contents:
+    dirs: [category1,]
